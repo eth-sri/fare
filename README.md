@@ -1,6 +1,6 @@
 # FARE <a href="https://www.sri.inf.ethz.ch/"><img width="100" alt="portfolio_view" align="right" src="http://safeai.ethz.ch/img/sri-logo.svg"></a>
 
-FARE (Fairness with Restricted Encoders) is the first Fair Representation Learning method with practical guarantees, introduced in our [research paper][jovanovic2022fare]:
+FARE (Fairness with Restricted Encoders) is the first Fair Representation Learning method with practical guarantees, introduced in our [research paper][jovanovic2023fare]:
 
 > Nikola Jovanović, Mislav Balunović, Dimitar I. Dimitrov, and Martin Vechev. 2023. _FARE: Provably Fair Representation Learning with Practical Certificates._ In Proceedings of ICML ’23.
 
