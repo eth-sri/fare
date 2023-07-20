@@ -1,0 +1,5 @@
+.history/
+.vscode/
+**/__pycache__/
+scikit-learn*
+*~
