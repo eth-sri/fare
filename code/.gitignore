@@ -1,0 +1,7 @@
+data/
+logs/
+**/__pycache__
+/result/*
+!/result/_eval
+plots/
+_experimental/
