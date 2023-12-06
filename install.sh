@@ -2,8 +2,8 @@
 
 # Create Env
 eval "$(conda shell.bash hook)"
-conda env create -f ./fare_env.yml -n fare_env
-conda activate fare_env
+conda env create -f ./fareenv.yml -n fareenv
+conda activate fareenv
 mkdir -p $CONDA_PREFIX/etc/conda/activate.d/
 mkdir -p $CONDA_PREFIX/etc/conda/deactivate.d/
 echo $'export LD_LIBRARY_PATH_OLD=$LD_LIBRARY_PATH\nexport LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/' > $CONDA_PREFIX/etc/conda/activate.d/env_vars.sh

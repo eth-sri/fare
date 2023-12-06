@@ -1,22 +1,19 @@
 # TODO refactor this huge file with duplication into config-based plotting 
 
+import argparse
 import os
+import sys
 import typing
-
-import sys 
 
 import numpy
 import pandas
 from fairlearn.metrics import demographic_parity_difference
-from matplotlib import interactive, pyplot
-from matplotlib import rc
-import argparse
-from texttable import Texttable
-
 from lib import os_utils
+from matplotlib import interactive, pyplot, rc
+
 # matplotlib config
 from src.common.datasets.adult import load_adult
-from src.scripts.lp import get_optimal_front
+from texttable import Texttable
 
 rc('font', **{'family': 'sans-serif', 'sans-serif': ['Helvetica'], 'size': 20})
 rc('text', usetex=True)
